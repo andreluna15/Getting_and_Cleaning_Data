@@ -10,7 +10,7 @@ output: html_document
 ## Project Description
 This is the course project for Getting and Cleaning Data, part of the Data Science specialization on John Hopkins University. The objective of the project is to treat messy data and deliver a tidy dataset, containing the average value of each feature, for each individual in each activity. In this Codebook you will see the description of the raw data, the treatment process and the resulting tidy dataset. The course project is also a way to evaluate my skills in creating a complete Codebook and ReadMe file for a complete description of the analysis process, and the organization of a GitHub repository.
 
-The present file is intended to explicit each step in collecting, cleaning and processing the raw data to transform it into a tidy dataset. A more complete explanation of variables, of the raw data and its original authors can be found in the [Codebook file]<https://github.com/dehzao/Getting_and_Cleaning_Data/blob/master/Codebook.md>
+The present file is intended to explicit each step in collecting, cleaning and processing the raw data to transform it into a tidy dataset. A more complete explanation of variables, of the raw data and its original authors can be found in the [Codebook file](https://github.com/dehzao/Getting_and_Cleaning_Data/blob/master/Codebook.md)
 
 ## Creating the tidy datafile
 
@@ -30,7 +30,7 @@ The present file is intended to explicit each step in collecting, cleaning and p
 12. Creating tidy_data.txt
 
 #### 1 - Download Data
-The data was downloaded manually , using the link provided by the course. The data can be downloaded using this [link]<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+The data was downloaded manually , using the link provided by the course. The data can be downloaded using this [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 #### 2 - Loading data into R
 Once downloaded, the data was allocated in the working directory, defined as
@@ -160,4 +160,3 @@ Once the dataset was adjusted to have only one variable per column, and only one
 ```{r eval = F}
 write.table(tidy, "tidy_dataset.txt", row.name = F)
 ```
-
